@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import logo from './logo.svg'
+import AcUnitIcon from '@mui/icons-material/AcUnit';
 import './App.css'
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
+            <h1>AcUnitIcon</h1>
+            <svg data-testid="AcUnitIcon"></svg>
           </button>
         </p>
         <p>
