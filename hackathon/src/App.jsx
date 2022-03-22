@@ -13,9 +13,8 @@ function App() {
         <p>Hello Vite + React!</p>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-            <h1>AcUnitIcon</h1>
-            <svg data-testid="AcUnitIcon"></svg>
+            count is: {count}<br></br>
+            <AcUnitIcon  color='primary'/>
           </button>
         </p>
         <p>
